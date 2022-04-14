@@ -7,7 +7,7 @@ A 3-tier environment is a common setup. Use a tool of your choosing/familiarity 
 
 ### Commands:
 ```
-terraform login
+terraform login terraform-demo-project.com
 terraform init
 terraform plan
 terraform apply
