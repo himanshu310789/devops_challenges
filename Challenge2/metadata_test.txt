@@ -1,0 +1,32 @@
+[root@host1 ~]#
+[root@host1 ~]# ./ec2_metadata.sh
+Usage: /bin/bash ec2_metadata.sh [COMPLETE METADATA NAME AS ARGUMENT]
+[root@host1 ~]#
+[root@host1 ~]# /bin/bash ec2_metadata.sh ami-id
+
+Output of ami-id :
+[
+  {
+    "ami-id": "ami-0a058476733012e25"
+  }
+]
+[root@host1 ~]#
+[root@host1 ~]# /bin/bash ec2_metadata.sh instance-id
+
+Output of instance-id :
+[
+  {
+    "instance-id": "i-045df24227e118878"
+  }
+]
+[root@host1 ~]# /bin/bash ec2_metadata.sh security-groups
+
+Output of security-groups :
+[
+  {
+    "security-groups": "sg_app"
+  },
+  {
+    "security-groups": "sg_ssh"
+  }
+]

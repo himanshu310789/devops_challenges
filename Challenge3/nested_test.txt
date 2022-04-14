@@ -1,0 +1,21 @@
+
+
+
+[root@host1 ~]# ./nested_object.sh
+
+Please provide the complete nested json object: {"a":{"b":{"c":"d"}}}
+
+Please provide the appropriate key in format [ a/b/c or x/y/z ]: a/b/c
+value = "d"
+[root@host1 ~]#
+[root@host1 ~]#
+[root@host1 ~]# ./nested_object.sh
+
+Please provide the complete nested json object: {"x":{"y":{"z":"a"}}}
+
+Please provide the appropriate key in format [ a/b/c or x/y/z ]: x/y
+value = {
+  "z": "a"
+}
+[root@host1 ~]#
+[root@host1 ~]#
